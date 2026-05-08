@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Lost & Found Portal</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Lost & Found Portal</h1>
+
+        <form action="/submit" method="POST">
+
+            <input type="text"
+                   name="item_name"
+                   placeholder="Enter Item Name"
+                   required>
+
+            <select name="status" required>
+
+                <option value="">
+                    Select Type
+                </option>
+
+                <option value="Lost">
+                    Lost
+                </option>
+
+                <option value="Found">
+                    Found
+                </option>
+
+            </select>
+
+            <input type="text"
+                   name="location"
+                   placeholder="Enter Location"
+                   required>
+
+            <input type="text"
+                   name="contact"
+                   placeholder="Enter Contact Number"
+                   required>
+
+            <button type="submit">
+
+                Submit Report
+
+            </button>
+
+        </form>
+
+        <a href="/reports" class="view-btn">
+
+            View Reports
+
+        </a>
+
+    </div>
+
+</body>
+
+</html>
