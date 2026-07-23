@@ -22,7 +22,6 @@ A web-based portal facilitating item recovery through real-time reporting, struc
 
 ## Project Structure
 
-```text
 lost-found-portal/
 ├── static/          # Static assets (CSS, JS, images)
 ├── templates/       # HTML template files
@@ -30,18 +29,21 @@ lost-found-portal/
 ├── lostfound.db     # Database file
 └── README.md        # Project documentation
 
+
 ---
 
 ## Getting Started
 
 1. **Clone the repository:**
-   `git clone [https://github.com/NishmithaSK/lost-found-portal.git](https://github.com/NishmithaSK/lost-found-portal.git)`
-   `cd lost-found-portal`
+   ```bash
+   git clone https://github.com/NishmithaSK/lost-found-portal.git
+   cd lost-found-portal
+Install dependencies:
 
-2. **Install dependencies:**
-   `pip install flask`
+Bash
+pip install flask
+Run the application:
 
-3. **Run the application:**
-   `python app.py`
-
-4. Access the web app in your browser at `[http://127.0.0.1:5000](http://127.0.0.1:5000)`.
+Bash
+python app.py
+Access the web app in your browser at [http://127.0.0.1:5000](http://127.0.0.1:5000).
