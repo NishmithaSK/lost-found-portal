@@ -22,6 +22,7 @@ A web-based portal facilitating item recovery through real-time reporting, struc
 
 ## Project Structure
 
+'''text
 lost-found-portal/
 ├── static/          # Static assets (CSS, JS, images)
 ├── templates/       # HTML template files
